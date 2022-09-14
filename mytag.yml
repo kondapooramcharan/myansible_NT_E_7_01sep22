@@ -1,0 +1,15 @@
+---
+- hosts: 172.31.41.196
+  become: yes
+  tasks:
+  - name: install git
+    apt:
+      name: git
+      state: present
+    tag: mygit  
+  - name: install wget
+    apt:
+      name: wget
+      state: present
+    tag: mywget
+        
