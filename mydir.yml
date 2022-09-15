@@ -1,0 +1,5 @@
+---
+  - name: create a second directory
+    file:
+        name: /home/ubuntu/mysecond
+        state: directory
