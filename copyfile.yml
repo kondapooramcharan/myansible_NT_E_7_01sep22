@@ -1,0 +1,5 @@
+---
+  - name: copy file from master to node
+    copy:
+       src: cherry.txt
+       dest: /home/ubuntu/mysecond
