@@ -7,6 +7,7 @@
       name: gittt
       state: present
     tags: mygit  
+    ignore_errors: yes
     
   - name: install wget
     apt:
